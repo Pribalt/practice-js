@@ -1,0 +1,2 @@
+!function(){var e=document.querySelector("#colorSelect"),t=document.querySelector("#removeOption"),o=document.querySelector("#add"),n=document.querySelector("#addOption");t.addEventListener("click",(function(){console.dir(e),e.selectedOptions[0].remove()})),n.addEventListener("click",(function(){var t=o.value.trim();if(""===t)return;var n="<option>".concat(t,"</option>");e.insertAdjacentHTML("beforeend",n),o.value=""}))}();
+//# sourceMappingURL=adding-and-removing-items-drop-down-list.e80164d0.js.map

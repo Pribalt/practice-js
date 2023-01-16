@@ -1,0 +1,2 @@
+const e=document.querySelector(".cube");document.addEventListener("keydown",(function(t){console.log(t);const o=parseInt(e.style.left),n=parseInt(e.style.top);"ArrowRight"===t.code?e.style.left=`${o+10}px`:"ArrowLeft"===t.code?e.style.left=o-10+"px":"ArrowDown"===t.code?e.style.top=`${n+10}px`:"ArrowUp"===t.code&&(e.style.top=n-10+"px")}));
+//# sourceMappingURL=cube-moveds-at-press.5d68c2b2.js.map
